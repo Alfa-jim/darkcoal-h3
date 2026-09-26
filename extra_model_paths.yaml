@@ -1,0 +1,19 @@
+comfyui:
+  base_path: /runpod-volume
+  is_default: true
+  checkpoints: models/checkpoints/
+  clip: models/text_encoders/
+  clip_vision: models/clip_vision/
+  configs: models/configs/
+  controlnet: models/controlnet/
+  diffusion_models: models/diffusion_models/
+  unet_gguf: models/diffusion_models/
+  text_encoders: models/text_encoders/
+  vae: models/vae/
+  loras: models/loras/
+  upscale_models: models/upscale_models/
+  custom_nodes: custom_nodes/
+  input: input/
+  output: output/
+  embeddings: models/embeddings/
+  processor: models/text_encoders/processor/

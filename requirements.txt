@@ -1,0 +1,4 @@
+runpod>=1.6.0
+huggingface_hub>=0.25.0
+requests
+ Pillow
